@@ -52,6 +52,15 @@ python -c "import gpaw, ase, qiskit; print('YES, Environment ready!')"
 # Test installation
 python -c "import gpaw; import ase; import qiskit; print('YES! Environment ready')"
 ```
+- For gpaw dzp-PAW/basis files: applicable to all OS
+```bash
+import os
+default_path = os.path.expanduser("~/gpaw-setups-24.11.0")
+if not os.path.exists(default_path):
+    os.system("wget https://wiki.fysik.dtu.dk/gpaw-files/gpaw-setups-24.11.0.tar.gz && tar -xvzf gpaw-setups-24.11.0.tar.gz")
+os.environ["GPAW_SETUP_PATH"] = default_path
+print(f"Using GPAW setup path: {os.environ['GPAW_SETUP_PATH']}")
+```
 ---
 
 
