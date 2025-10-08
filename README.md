@@ -75,3 +75,11 @@ Mentees will:
 	•	ASE + GPAW developers @gpaw @ase
 	•	Qiskit Machine Learning team
 	•	Research inspiration: Photonic upconversion in CaF₂:Er system
+
+### Reports - Month 1:
+
+- Mentees successfully installed gpaw open-source software with all its dependencies on Mac intel, linux and on Windows (WLS) operating systems
+- Mentees are now expected to run **sim_master** file to ensure we have no debugging issues (See figure below for guide)
+
+
+![](/Users/denniswayo/Downloads/Screenshot 2025-10-08 at 18.32.50.png)
