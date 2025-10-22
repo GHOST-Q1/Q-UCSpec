@@ -20,8 +20,8 @@ This project is part of the **Qiskit Advocate Mentorship Program (QAMP) 2025**.
 ```bash
 Q-UCSpec/
 ├── simulations_gpaw/   # ASE + GPAW scripts for CaF2, Ca3F:Er clusters
-├── spectra/            # TDDFT stick and broadened spectra (CSV)
-├── features/           # Extracted spectral descriptors for ML/QML
+├── spectra-results/    # TDDFT stick and broadened spectra-results (CSV)
+├── data/               # Extracted spectral descriptors for ML/QML
 ├── qiskit_qml/         # Quantum ML notebooks (QSVM, EstimatorQNN)
 ├── docs/               # Documentation and project notes
 └── README.md
