@@ -68,6 +68,7 @@ events.out.tfevents*
 !env-gpaw-mac.yml
 !env-gpaw-win.yml
 !env-gpaw-linux.yml
+!env-qiskit.yml
 !requirements.txt
 
 # === Results to KEEP ===

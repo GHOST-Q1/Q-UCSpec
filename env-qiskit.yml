@@ -1,0 +1,24 @@
+name: qiskit_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - seaborn
+  - jax
+  - jaxlib
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - ipywidgets
+  - pip:
+      - qiskit
+      - qiskit-aer
+      - qiskit-machine-learning
+      - qiskit-algorithms
+      - qiskit-ibm-runtime
